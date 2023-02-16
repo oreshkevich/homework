@@ -1,0 +1,65 @@
+.header {
+  // .header__wrap
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 37px;
+  }
+
+  // .header__button
+  &__button {
+    margin-top: 7px;
+  }
+  &__button button:nth-last-child(n + 2) {
+    margin-right: 20px;
+  }
+
+  // .header__like-btn
+
+  &__like-btn {
+    position: relative;
+  }
+  &__like-btn::after {
+    content: '1';
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 13px;
+    height: 13px;
+    left: 14px;
+    top: -5px;
+
+    background: #e6c8b4;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #1b1a17;
+  }
+}
+
+.nav {
+  min-width: 428px;
+  // .nav__menu
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+
+  // .nav__link
+
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555248;
+  }
+}
