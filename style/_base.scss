@@ -19,11 +19,6 @@ $baseFontSize: 16;
   @return calc($pixels / $context * 1rem);
 }
 
-h1 {
-  font-size: 5.0520833333vw;
-  font-size: 9.2592592593vh;
-}
-
 * {
   box-sizing: border-box;
 }
