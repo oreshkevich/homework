@@ -1,0 +1,130 @@
+@media (max-width: 1106px) {
+  .card-form__row {
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .card__row {
+    gap: 10px;
+  }
+}
+@media (max-width: 868px) {
+  .footer__wrap {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-bottom__wrap {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main__wrap {
+    padding-top: 150px;
+    padding-bottom: 93px;
+  }
+}
+@media (max-width: 628px) {
+  .header__item {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-form__col {
+    width: 473px;
+  }
+}
+@media (max-width: 544px) {
+  .header__item {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-form__col {
+    width: 473px;
+  }
+  .header__item-wrap {
+    display: none;
+  }
+  .main__wrap {
+    padding-top: 98px;
+  }
+}
+
+@media (max-width: 496px) {
+  .card-form__item-img {
+    display: none;
+  }
+  .card-form__col {
+    width: 100%;
+  }
+  .proposal__card-form {
+    margin-top: 50px;
+  }
+  .proposal {
+    padding-top: 40px;
+    padding-bottom: 57px;
+  }
+}
+@media (max-width: 380px) {
+  .header__item {
+    margin-bottom: 35px;
+  }
+  .header__contact {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer__item_media {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .phone {
+    margin-right: 0px;
+  }
+  .nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 22px;
+    top: 14px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 50;
+    width: 18px;
+    height: 12px;
+  }
+  .hamburger-span {
+    display: block;
+    height: 2.31px;
+    width: 100%;
+    background-color: #333;
+    margin-bottom: 4.54px;
+    transition: all 0.5s;
+  }
+  .main__title {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 21px;
+    color: #fff;
+  }
+  .proposal__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 7px;
+    margin-bottom: 34px;
+  }
+  .logo__link {
+    width: 50px;
+  }
+  .logo__title {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 16px;
+  }
+}
